@@ -1,12 +1,25 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --color-primary: #FFF1F7;
+  --color-secondary: #FFC2E6;
+  --color-tertiary: #353430;
+  --color-highlight: #FF8DCB;
+  --color-muted: #353430;
+  --color-static: #FF0070;
+  --color-neutral: #353430;
+  
+  --theme-background-1: url(../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-primary: #FFF1F7;
+    --color-secondary: #FFC2E6;
+    --color-tertiary: #353430;
+    --color-highlight: #FF8DCB;
+    --color-muted: #353430;
+    --color-static: #FF0070;
+    --color-neutral: #353430;
+    
+    --theme-background-1: url(../images/cover-image-light.png); 
+    }
 }
