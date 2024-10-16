@@ -4,6 +4,7 @@
   --color-tertiary: #000028;
   --color-highlight: #FF0070;
   --color-muted: #FF0070;
+  --color-muted-hsl: hsl(333.647, 100%, 50%);
   --color-static: #FF0070;
   --color-neutral: #F1B2CE;
   --color-hider: #FF0070;
@@ -17,6 +18,7 @@
     --color-tertiary: #000028;
     --color-highlight: #FF0070;
     --color-muted: #FF0070;
+    --color-muted-hsl: hsl(333.647, 100%, 50%);
     --color-static: #FF0070;
     --color-neutral: #F1B2CE;
     --color-hider: #FF0070;
