@@ -5,7 +5,7 @@
 }
 
 body {
-  /* min-inline-size: 375px; */
+  min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
 }
@@ -37,4 +37,15 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
