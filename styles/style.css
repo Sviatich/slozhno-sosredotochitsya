@@ -26,7 +26,7 @@
   text-shadow: 4px 4px var(--color-static);
   color: var(--color-secondary);
   text-align: center;
-  margin-top: 251px;
+  margin-top: 292px;
   margin-bottom: 263px;
 }
 
@@ -102,6 +102,10 @@
   margin-bottom: 40px;
 }
 
+.section-block:last-child {
+  margin-bottom: 0;
+}
+
 .section-block__grid-2-columns {
   display: grid;
   grid-template-columns: 32% 66%;
@@ -122,6 +126,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 24.6% 29.8% 41%;
   gap: 20px;
   grid-auto-flow: row;
   grid-template-areas:

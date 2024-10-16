@@ -7,7 +7,6 @@
   --color-static: #FF0070;
   --color-neutral: #353430;
   --color-hider: transparent;
-  
   --theme-background-1: url(../images/cover-image-light.png);
 }
 
@@ -21,7 +20,6 @@
     --color-static: #FF0070;
     --color-neutral: #353430;
     --color-hider: transparent;
-    
     --theme-background-1: url(../images/cover-image-light.png); 
-    }
+  }
 }
