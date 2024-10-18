@@ -4,11 +4,11 @@
   --color-tertiary: #000028;
   --color-highlight: #FF0070;
   --color-muted: #FF0070;
-  --color-muted-hsl: hsl(333.647, 100%, 50%);
+  --color-muted-rgba: rgba(255, 0, 112, 0.4);
   --color-static: #FF0070;
   --color-neutral: #F1B2CE;
   --color-hider: #FF0070;
-  --theme-background-1: url(../images/cover-image-dark.png);
+  --theme-background: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +18,10 @@
     --color-tertiary: #000028;
     --color-highlight: #FF0070;
     --color-muted: #FF0070;
-    --color-muted-hsl: hsl(333.647, 100%, 50%);
+    --color-muted-rgba: rgba(255, 0, 112, 0.4);
     --color-static: #FF0070;
     --color-neutral: #F1B2CE;
     --color-hider: #FF0070;
-    --theme-background-1: url(../images/cover-image-dark.png);
+    --theme-background: url(../images/cover-image-dark.png);
   }
 }
