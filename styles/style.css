@@ -149,12 +149,6 @@
   margin-block-end: 0;
 }
 
-.text-ordinary {
-  color: var(--color-neutral);
-  line-height: 130%;
-  margin-block-end: 20px;
-}
-
 .text-ordinary-size {
   font-size: 18px;
 }
@@ -307,13 +301,14 @@ footer.section-block {
 
   .header__title {
     margin-block-start: 67px;
-    margin-block-end: 54px;
+    margin-block-end: 55px;
     margin-inline-start: 0px;
     line-height: 83%;
   }
 
   .header__title-footer {
     font-size: clamp(116px, 10vw, 157px);
+    margin-block-end: 37px;
   }
 
   .header__subtitle {
@@ -326,7 +321,7 @@ footer.section-block {
 
   .section-block {
     padding: 10px;
-    margin-block-end: 30px;
+    margin-block-end: 31px;
   }
 
   .decoration-borders::after {
