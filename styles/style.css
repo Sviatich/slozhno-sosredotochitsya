@@ -1,7 +1,7 @@
 .page {
   max-width: 1024px;
   margin: 0px auto;
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', monospace, sans-serif;
   background-color: var(--color-primary);
   background-image: var(--theme-background);
   background-attachment: fixed;
