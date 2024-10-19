@@ -175,6 +175,12 @@
   margin-block-end: 40px;
 }
 
+.gallery-block {
+  padding: 20px;
+  position: relative;
+  margin-block-end: 40px;
+}
+
 footer.section-block {
   margin-block-end: 0px;
 }
@@ -206,6 +212,10 @@ footer.section-block {
     "image-1 image-1 image-2"
     "image-4 image-3 image-2"
     "image-4 image-5 image-5";
+}
+
+.grid-container_margin {
+  margin-bottom: 20px;
 }
 
 .image-settings {
@@ -264,6 +274,7 @@ footer.section-block {
 
   .header__title-footer {
     font-size: clamp(120px, 10vw, 157px);
+    margin-block-end: 0px;
   }
 
   .header__subtitle_text {
@@ -282,6 +293,10 @@ footer.section-block {
     grid-template-columns: 32.4% 65%;
   }
 
+  .grid-container {
+    grid-template-rows: 24.8% 29% 40%;
+  }
+  
   .header__theme-menu {
     justify-content: end;
   }
@@ -290,6 +305,10 @@ footer.section-block {
     grid-template-columns: 1fr;
     margin-block-start: 172px;
     gap: 11px;
+  }
+  
+  .gallery-block {
+    margin-block-end: 31px;
   }
 }
 
@@ -308,7 +327,6 @@ footer.section-block {
 
   .header__title-footer {
     font-size: clamp(116px, 10vw, 157px);
-    margin-block-end: 37px;
   }
 
   .header__subtitle {
@@ -322,6 +340,11 @@ footer.section-block {
   .section-block {
     padding: 10px;
     margin-block-end: 31px;
+  }
+
+  .gallery-block {
+    padding: 10px;
+    margin-block-end: 13px;
   }
 
   .decoration-borders::after {
@@ -348,6 +371,9 @@ footer.section-block {
       "image-3"
       "image-5";
     gap: 10px;
-    margin-block-start: -10px;
+  }
+
+  .grid-container_margin {
+    margin-bottom: 10px;
   }
 }
